@@ -1,0 +1,14 @@
+===Base de Dados livrariap
+
+== Estrutura da tabela livro
+
+|------
+|Coluna|Tipo|Nulo|Predefinido
+|------
+|//**id**//|int(4)|Não|
+|titulo|varchar(50)|Não|
+|autor|varchar(50)|Não|
+== Extraindo dados da tabela livro
+
+|1|Call me by your name|Andre Acimann
+|2|teste2|teste2

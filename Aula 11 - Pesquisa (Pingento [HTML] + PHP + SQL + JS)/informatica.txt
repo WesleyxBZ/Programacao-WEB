@@ -1,0 +1,15 @@
+===Base de Dados informatica
+
+== Estrutura da tabela informatica
+
+|------
+|Coluna|Tipo|Nulo|Predefinido
+|------
+|//**codigo**//|int(4)|Não|
+|descricao|varchar(50)|Não|
+|marca|varchar(50)|Não|
+== Extraindo dados da tabela informatica
+
+|1|Redmi 4A|Xiaomi
+|2|Redmi Note 5|Xiaomi
+|3|Redmi Note 5 Pro|Xiaomi

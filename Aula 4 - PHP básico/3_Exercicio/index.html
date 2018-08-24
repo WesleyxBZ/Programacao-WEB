@@ -1,0 +1,38 @@
+<DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>Exercício</title>
+    </head>
+    
+    <body>
+        <div>
+            <form method="post" action="calcular.php">
+                <label for="valor1">Valor1: </label>
+                <input type="text" name="valor1" id="valor1">
+                <label for="valor2">Valor2: </label>
+                <input type="text" name="valor2" id="valor2"><br/><br/>
+                
+                <fieldset>
+                    <legend>Operação</legend>
+                    
+                    <input type="radio" name="simbolo" id="adicao" value="+">
+                    <label for="adicao">Adição</label><br/>
+                    
+                    <input type="radio" name="simbolo" id="subtracao" value="-">
+                    <label for="subtracao">Subtração</label><br/>
+                    
+                    <input type="radio" name="simbolo" id="multiplicacao" value="*">
+                    <label for="multiplicacao">Multiplicação</label><br/>
+                    
+                    <input type="radio" name="simbolo" id="divisao" value="/">
+                    <label for="divisao">Divisão</label>
+                </fieldset>
+                
+                <br/><input type="submit" value="Calcular">
+            </form>
+        </div>
+    </body>
+    
+</html>
